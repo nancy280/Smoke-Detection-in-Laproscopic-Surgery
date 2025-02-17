@@ -36,7 +36,7 @@ The model is trained using Adam optimizer with binary cross-entropy loss.
 Performance metrics include Accuracy, Precision, Recall, and F1-score.
 Comparison with Random Forest, XGBoost, SVM, and alternative CNN variants.
 
-###Installation
+### Installation
 
 1. Clone the Repository
    
@@ -61,18 +61,10 @@ To perform smoke detection on a new laparoscopic video:
 python predict.py --input path/to/video.mp4
 
 
-###Results
-The proposed CNN achieves 92.6% accuracy, outperforming existing models:
+### Results
+The proposed CNN achieves 92.6% accuracy, outperforming existing models
 
-Model	      Precision	Recall	F1-Score	Accuracy
-Proposed CNN	0.93	  0.92	  0.91	    0.92
-CNN with ReLU	0.74	  0.74	  0.74      0.74
-CNN with Tanh	0.68	  0.68	  0.68	    0.68
-Random Forest	0.80	  0.80	  0.80	    0.80
-XGBoost	      0.80	  0.80	  0.80	    0.80
-SVM	          0.75	  0.75	  0.75	    0.75
-
-###Visualization
+### Visualization
 Feature Distributions
 Correlation Matrix shows relationships between extracted features.
 Histograms & Pair Plots highlight class separability.

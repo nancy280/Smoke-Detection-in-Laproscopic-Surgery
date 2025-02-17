@@ -98,39 +98,24 @@ The **proposed CNN model** achieves **92.6% accuracy**, outperforming existing m
 
 ---
 
-### Installation
+## 🚀 Cloning and Executing the Repository (Google Colab)  
 
-1. Clone the Repository
-   
-git clone https://github.com/nancy280/Smoke-Detection-in-Laproscopic-Surgery.git
-cd Laparoscopic-Smoke-Detection
+This project can be easily executed using **Google Colab** without requiring local installation. Follow the steps below:  
 
-2. Install Dependencies
-   
-pip install -r requirements.txt
+### **1️⃣ Open Google Colab**  
+Click the link below to open the Colab notebook:  
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/Laparoscopic-Smoke-Detection/blob/main/Smoke_detection_ML.ipynb)  
 
-3. Run the Model
+### **2️⃣ Clone the Repository in Colab**  
+Once inside Colab, run the following command in a code cell to clone the repository:  
 
-To train the model:
-python train.py
+!git clone https://github.com/yourusername/Laparoscopic-Smoke-Detection.git
+%cd Laparoscopic-Smoke-Detection
 
-To evaluate on test data:
-python evaluate.py
+### **3️⃣ Open and Run the Notebook**
+In Google Colab, open Smoke_detection_ML.ipynb
+Click Runtime > Run All to execute all cells
 
-4. Inference on New Data
-
-To perform smoke detection on a new laparoscopic video:
-python predict.py --input path/to/video.mp4
-
-
-### Results
-The proposed CNN achieves 92.6% accuracy, outperforming existing models
-
-### Visualization
-Feature Distributions
-Correlation Matrix shows relationships between extracted features.
-Histograms & Pair Plots highlight class separability.
-Confusion Matrix provides a breakdown of classification results.
 
 
 

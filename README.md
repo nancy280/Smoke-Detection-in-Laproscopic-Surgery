@@ -1,7 +1,5 @@
 # 🚑 Laparoscopic Smoke Detection using Convolutional Neural Networks  
 
-![Laparoscopic Smoke Detection](images/banner.png)  
-
 ## 📌 Overview  
 This repository contains the implementation of a **Convolutional Neural Network (CNN)-based model for detecting smoke in laparoscopic images**. The model integrates **multi-modal feature fusion** by combining spatial image data with extracted numerical features such as:  
 
@@ -68,7 +66,7 @@ The dataset consists of **frames extracted from 10 robot-assisted laparoscopic h
 - **Sigmoid activation** for binary classification (Smoke / No Smoke)  
 
 📌 **Architecture Diagram:**  
-![CNN Architecture](images/cnn_architecture.png)  
+![Architecture](images/architecture.png)  
 
 ### **4️⃣ Training and Evaluation**  
 - Model trained using **Adam optimizer** with **binary cross-entropy loss**  
@@ -95,6 +93,7 @@ The **proposed CNN model** achieves **92.6% accuracy**, outperforming existing m
 
 **🔹 Model Performance Comparison**  
 ![Performance Comparison](images/performance_comparison.png)  
+![Performance Comparison](images/performance_comparison2.png) 
 
 ---
 

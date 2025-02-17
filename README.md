@@ -12,6 +12,9 @@ Comparative analysis with other machine learning models like Random Forest, XGBo
 Dataset
 The dataset consists of frames extracted from 10 robot-assisted laparoscopic hysterectomy procedure videos obtained from the EPSRC Centre for Interventional and Surgical Sciences. Each frame is manually annotated for smoke regions, and features are extracted to aid in classification.
 
+## Dataset 
+Download the dataset from https://www.ucl.ac.uk/interventional-surgical-sciences/weiss-open-research/weiss-open-data-server/desmoke-lap
+
 ## Methodology
 
 ### Preprocessing:
